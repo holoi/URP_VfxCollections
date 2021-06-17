@@ -235,20 +235,6 @@ MonoBehaviour:
     max: Infinity
     enumValues: []
     descendantCount: 0
-  - name: ColorMap
-    path: ColorMap
-    tooltip: 
-    sheetType: m_NamedObject
-    realType: Texture2D
-    defaultValue:
-      m_Type:
-        m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
-          Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: 
-    min: -Infinity
-    max: Infinity
-    enumValues: []
-    descendantCount: 0
   - name: PositionMap
     path: PositionMap
     tooltip: 
@@ -292,7 +278,7 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 6
+  m_GraphVersion: 7
   m_ResourceVersion: 1
   m_saved: 1
   m_SubgraphDependencies: []
@@ -340,7 +326,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614689}
   m_ExposedName: PositionMap
   m_Exposed: 1
-  m_Order: 1
+  m_Order: 0
   m_Category: Akvfx
   m_Min:
     m_Type:
@@ -423,7 +409,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615010}
   m_ExposedName: MapWidth
   m_Exposed: 1
-  m_Order: 2
+  m_Order: 1
   m_Category: Akvfx
   m_Min:
     m_Type:
@@ -495,7 +481,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615012}
   m_ExposedName: MapHeight
   m_Exposed: 1
-  m_Order: 3
+  m_Order: 2
   m_Category: Akvfx
   m_Min:
     m_Type:
@@ -2926,6 +2912,7 @@ MonoBehaviour:
   useAlphaClipping: 1
   generateMotionVector: 0
   excludeFromTAA: 0
+  materialOffset: 0
   m_SubOutputs:
   - {fileID: 8926484042661615184}
   cullMode: 3
@@ -8894,7 +8881,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615612}
   m_ExposedName: SkinnedMeshRenderer
   m_Exposed: 1
-  m_Order: 4
+  m_Order: 3
   m_Category: 
   m_Min:
     m_Type:
@@ -8982,7 +8969,7 @@ MonoBehaviour:
   - {fileID: 8926484042661615614}
   m_ExposedName: MeshTransfrom
   m_Exposed: 1
-  m_Order: 5
+  m_Order: 4
   m_Category: 
   m_Min:
     m_Type:
